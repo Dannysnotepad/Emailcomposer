@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="left"
+	android:padding="30dp"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Compose Email"
+		android:textSize="20dp"
+		android:textStyle="bold"
+		android:layout_marginBottom="20dp"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:ems="10"
+		android:layout_height="wrap_content"
+		android:inputType="textEmailSubject"
+		android:hint="Subject"
+		android:typeface="monospace"
+		android:layout_marginBottom="15dp"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:inputType="textEmailAddress"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="Email"
+		android:typeface="monospace"
+		android:layout_marginBottom="15dp"/>
+
+	<EditText
+		android:layout_width="match_parent"
+		android:inputType="textMultiLine"
+		android:layout_height="100dp"
+		android:ems="10"
+		android:gravity="top"
+		android:hint="Body"
+		android:typeface="monospace"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Send"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|center"
+		android:textAlignment="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="from Dannysnotepad"
+			android:paddingTop="256dp"
+			android:typeface="serif"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
